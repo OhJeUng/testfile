@@ -11,18 +11,18 @@
 // about supported directives.
 //
 //= require_tree  .
-// Vendor Files
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require js/facebook
-//= require js/jquery.dropotron.min
-//= require js/jquery.min
-//= require js/jquery.scrollgress.min
-//= require js/jquery.scrolly.min
-//= require js/main
-//= require js/pagemove
-//= require js/script2
-//= require js/skel.min
-//= require js/util
+// Vendor Files
+//= require facebook
+//= require jquery.dropotron.min
+//= require jquery.min
+//= require jquery.scrollgress.min
+//= require jquery.scrolly.min
+//= require main
+//= require pagemove
+//= require script2
+//= require skel.min
+//= require util
