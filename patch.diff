@@ -1,0 +1,47 @@
+From 8594f352e38d8e9a5dd80efcac80d9630830cb03 Mon Sep 17 00:00:00 2001
+From: Oju <bioman332@naver.com>
+Date: Mon, 18 Jul 2016 17:36:06 +0900
+Subject: [PATCH] =?UTF-8?q?=EC=86=8C=EC=8A=A4=20=EA=B0=80=EC=A7=80?=
+ =?UTF-8?q?=EC=B9=98=EA=B8=B0=20main.js=20=EC=9C=84=EC=B9=98=EC=88=98?=
+ =?UTF-8?q?=EC=A0=95?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ app/views/home/index.erb               | 6 ++++--
+ app/views/layouts/application.html.erb | 1 -
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/app/views/home/index.erb b/app/views/home/index.erb
+index ccb6b2b..1b5ae70 100644
+--- a/app/views/home/index.erb
++++ b/app/views/home/index.erb
+@@ -253,8 +253,10 @@
+         </script>
+ 
+ 
+-        <!--<script src="assets/js/main.js"></script>
+-        <script src="assets/js/jquery.dropotron.min.js"></script>-->
++        <!--
++        <script src="assets/js/main.js"></script>
++        <script src="assets/js/jquery.dropotron.min.js"></script>
++      -->
+ </body>
+ 
+ </html>
+diff --git a/app/views/layouts/application.html.erb b/app/views/layouts/application.html.erb
+index e4d293a..f651828 100644
+--- a/app/views/layouts/application.html.erb
++++ b/app/views/layouts/application.html.erb
+@@ -55,7 +55,6 @@
+     <%= yield %>
+     <script src="http://52.78.89.136/assets/js/util.js"></script>
+     <script src="http://52.78.89.136/assets/js/skel.min.js"></script>
+-    <script src="http://52.78.89.136/assets/js/main.js"></script>
+     <script src="http://52.78.89.136/assets/js/script2.js"></script>
+ </body>
+ 
+-- 
+2.7.4.windows.1
+
