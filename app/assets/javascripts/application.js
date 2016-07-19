@@ -16,13 +16,13 @@
 //= require twitter/bootstrap
 //= require turbolinks
 //= require_tree  ../../../vendor/assets/javascripts
-//= require facebook
 //= require jquery.dropotron.min
 //= require jquery.min
 //= require jquery.scrollgress.min
 //= require jquery.scrolly.min
 //= require main
-//= require pagemove
-//= require script2
 //= require skel.min
 //= require util
+//= require script2
+//= require facebook
+//= require pagemove
