@@ -10,11 +10,12 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require_tree  .
+// Vendor Files
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require_tree  http://52.78.89.136/app/assets/javascripts/js
 //= require js/facebook
 //= require js/jquery.dropotron.min
 //= require js/jquery.min
