@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require_tree  ../../../vendor/assets/javascripts/js
+//= require_tree  http://52.78.89.136/vendor/assets/javascripts/js
 //= require js/facebook
 //= require js/jquery.dropotron.min
 //= require js/jquery.min
