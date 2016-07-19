@@ -2,6 +2,7 @@
 	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	window.onload = function(){}
 */
 
 (function($) {
@@ -39,7 +40,7 @@
 			skel.on('+narrower -narrower', function() {
 				$.prioritize(
 					'.important\\28 narrower\\29',
-					skel.breakpoint('narrower').active
+					skel.breakpoints('narrower').active
 				);
 			});
 
