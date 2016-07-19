@@ -10,18 +10,19 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require_tree .
-//= require js/facebook
-//= require js/jquery.dropotron.min
-//= require js/jquery.min
-//= require js/jquery.scrollgress.min
-//= require js/jquery.scrolly.min
-//= require js/main
-//= require js/pagemove
-//= require js/script2
-//= require js/skel.min
-//= require js/util
+//= require_tree  ../../../vendor/assets/javascripts
+//= require jquery.dropotron.min
+//= require jquery.min
+//= require jquery.scrollgress.min
+//= require jquery.scrolly.min
+//= require main
+//= require skel.min
+//= require util
+//= require script2
+//= require facebook
+//= require pagemove
